@@ -1,14 +1,13 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-import NewsScreen from './screen/NewsScreen'
+import React from 'react';
+import {View, Text} from 'react-native';
+import NewsScreen from './screen/NewsScreen';
 
 const App = () => {
   return (
     <View>
-      <NewsScreen/>
-      {/* <Text>fazilet</Text> */}
+      <NewsScreen />
     </View>
-  )
-}
+  );
+};
 
-export default App
+export default App;
