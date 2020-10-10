@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   img: {
-    width: 325,
+    width: Dimensions.get('window').width * 0.9,
     height: 200,
     borderRadius: 5,
   },
